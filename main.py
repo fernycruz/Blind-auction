@@ -36,7 +36,3 @@ while more_players == True:
         highest_bid = max(user_choice, key=lambda x: x['bid'])
         print(f"The highest bid is ${highest_bid['bid']} by {highest_bid['name']}")
         
-            
-
-    
-
